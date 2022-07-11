@@ -19,6 +19,7 @@
     "@react-navigation/stack": "^5.14.3",
     "@reduxjs/toolkit": "^1.5.0",
     "@screens/google-calendar": "file:./screens/google-calendar/",
+    "@screens/login": "file:./screens/login/",
     "@screens/notifications-preference": "file:./screens/notifications-preference/",
     "@screens/photo-library": "file:./screens/photo-library/",
     "axios": "^0.21.1",
