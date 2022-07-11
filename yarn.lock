@@ -998,6 +998,9 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@modules/app-menu@file:./modules/app-menu/":
+  version "1.0.0"
+
 "@modules/login@file:./modules/login":
   version "1.0.0"
   dependencies:
@@ -1218,7 +1221,7 @@
     redux-thunk "^2.4.1"
     reselect "^4.1.5"
 
-"@screens/google-calendar@file:./screens/google-calendar/":
+"@screens/google-calendar@file:./screens/google-calendar":
   version "1.0.0"
 
 "@screens/notifications-preference@file:./screens/notifications-preference":
