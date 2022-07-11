@@ -1,4 +1,18 @@
 import { StyleSheet } from "react-native"
+const styles = StyleSheet.create({
+  hr: {
+    marginTop: 20,
+    marginBottom: 20,
+    borderBottomColor: "black",
+    borderBottomWidth: 1
+  },
+  container: { flex: 1, height: 100, padding: 13 },
+  text: { color: "black", fontSize: 20 },
+  buttonPressed: { backgroundColor: "#6cd3b1" },
+  buttonNotPressed: { backgroundColor: "#00ffde" },
+  button: { borderRadius: 4, padding: 15, marginTop: 10 },
+  buttonText: { color: "white", textAlign: "center", fontSize: 16 }
+})
 
 export const globalOptions = {
   name: "platinum_group_36137",
@@ -8,8 +22,11 @@ export const globalOptions = {
 
 export const modulesOptions = {
   "@modules/app-menu": {
-    copy: "Routes available!"
+    title: "Menu",
+    copy: "Routes available!",
+    styles: styles
   },
+
   undefined: {
     LOGO_URL:
       "https://crowdbotics-slack-dev.s3.amazonaws.com/media/project_component_resources/cb-icon.png",
